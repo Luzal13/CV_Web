@@ -1,9 +1,49 @@
-#cabezera{
+* {
+    padding: 0;
+    margin: 0;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+  .wrapper {
+    width: 80%;
+    margin: auto;
+    overflow:hidden;
+  }
+  header {
+    background: rgba(199,147,74,0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+  }
+  
+  nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  nav ul li a {
+    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+    padding: 20px;
+  }
+  nav ul li:hover {
+  background: #450f26;
+  }
+  .contenido {
+    padding-top: 80px;
+  }
+#todo{
     background-color: #F0EFF4;
+    width: 1090px;;
+    height:1900px;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+#cabezera{
     width: 1060px;;
     height:200px;
-    position: relative;
-    right: -120px;
+    right: 50px;
     top: 85px;
    } 
 
@@ -17,7 +57,7 @@
    position: relative;
     width: 400px;
     left: 20px;
-    bottom: 100px;
+    bottom: 50px;
 }
 .fa-whatsapp:before{
     background: #C7934A;
@@ -28,7 +68,7 @@
     height: 20px;
     text-align: center;
     line-height: 50px;
-    border-radius: 100%;
+    border-radius: 75%;
     right: 1px;
 }
 .fa-linkedin:before{
@@ -40,8 +80,7 @@
     height: 20px;
     text-align: center;
     line-height: 50px;
-    border-radius: 100%;
-}
+    border-radius: 50%;}
 .fa-behance:before{
     background: #C7934A;
     color: #fafafa;
@@ -52,6 +91,7 @@
     text-align: center;
     line-height: 50px;
     border-radius: 50%;
+
 }
 .fa-github:before{
     background: #C7934A;
@@ -70,68 +110,11 @@
     width: 150px;
     height: 150px;
     left: 560px;
-    top: 10px;
+    top: 40px;
     
     
 }
-#navegador{
-    position: relative;
-    background: #C7934A;
-    width: 50px;
-    height: 290px;
 
-}
-#emoji1{
-    position: relative;
-    bottom: 80px;
-    left: 13px;   
-}
-#emoji2{
-    position: relative;
-    bottom: 70px;
-    left: 13px;
-}
-#emoji3{
-    position: relative;
-    bottom: 60px;
-    left: 13px;
-}
-#emoji4{
-    position: relative;
-    bottom: 50px;
-    left: 13px;
-}
-#emoji5{
-    position: relative;
-    bottom: 40px;
-    left: 13px;
-}
-#emoji6{
-    position: relative;
-    bottom: 40px;
-    left: 13px;
-}
-#emoji7{
-    position: relative;
-    bottom: 30px;
-    left: 13px;
-}
-#emoji8{
-    position: relative;
-    bottom: 20px;
-    left: 13px;
-}
-#emoji9{
-    position: relative;
-    bottom: 10px;
-    left: 13px;
-}
-
-#todo{ 
-    position: relative;
-    bottom: 250px;
-    width: 1px;
-}
 h1{
     position: relative;
     left: 400px;
@@ -152,12 +135,11 @@ section img {
 
 #objetivos{
     
-    background-color: #F0EFF4;
-    width: 1000px;;
+    width: 1060px;;
     height:110px;
     position: relative;
-    left: 160px;
-    top: 80px;
+    left: 120px;
+    top: 90px;
 }
 #emo{
     position:relative;
@@ -173,17 +155,16 @@ section img {
     color:#450f26;
     font-family: sans-serif;
     width:850px;
-    left: 80px;
+    right: 210px;
+    bottom: 80px;
     
 }
 #experiencia{
     position: relative;
-    background-color: #F0EFF4;
     width: 750px;;
     height:300px;
-    position: relative;
-    left: 430px;
-    top: 90px;
+    left: 350px;
+    top: 85px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
@@ -204,14 +185,12 @@ ul{
 #A{
   position: relative;
   left: 10px;
-  top: 25px;
-  padding-left: 15px;
+  top: 40px;
 }
 #B{
     position: relative;
   left: 10px;
-  top: 20px;
-  padding-left: 15px;
+  top: 40px;
 }
 #c{
 
@@ -220,39 +199,34 @@ ul{
 }
 #formacion{
     position: relative;
-    background-color: #F0EFF4;
     width: 750px;;
     height:160px;
     position: relative;
-    left: 430px;
-    top: 90px;
+    left: 350px;
+    top: 85px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
 #fo{
     position:relative;
     left: 210px;
-    top:20px;
     color:#00398a
 }
 #for{
     position: relative;
     top:20px;
-    
 }
 #form{
     position: relative;
     left: 10px;
-    padding-left: 15px;
-    padding-top: 5px;
+    top: 10px;
 }
 #estudios{    
     position: relative;
-    background-color: #F0EFF4;
     width: 750px;;
     height:400px;
     position: relative;
-    left: 430px;
+    left: 350px;
     top: 90px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
@@ -264,24 +238,22 @@ ul{
     top: 15px;
     
 }
-
-#estu{
-    position: relative;
-    left: 10px;
-    padding-left: 15px;
-
-}
 #est{
     position: relative;
    top:20px
+}
+#estu{
+    position: relative;
+    left: 10px;
+    top:30px
+
 }
 #datos{
     position: relative;
     height: 200px;
     width: 300px;
-    background-color: #F0EFF4;
     bottom: 1130px;
-    left: 120px;
+    left: 40px;
 }
 #d{
     position: relative;
@@ -303,9 +275,8 @@ ul{
     position: relative;
     height: 150px;
     width: 300px;
-    background-color: #F0EFF4;
     bottom: 1130px;
-    left: 120px;
+    left: 40px;
 }
 #i{
     position: relative;
@@ -317,7 +288,7 @@ ul{
 #id{
     position: relative;
     text-align: center;
-    top: 20px;
+    top: 30px;
     font-family: sans-serif;
     color:#450f26;
 
@@ -326,9 +297,9 @@ ul{
     position: relative;
     height: 460px;
     width: 300px;
-    background-color: #F0EFF4;
+
     bottom: 1130px;
-    left: 120px;
+    left: 40px;
    
 }
 #h{
@@ -340,35 +311,35 @@ ul{
 }
 #di{
     position: relative;
-    top:15px;
+    top:40px;
+    text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color:#00398a;
-    text-align: center;
 
 }
-#dii{
+#he1{
     position: relative;
-    top:15px;
-    right: 10px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color:#00398a;
-    text-align: center;}
-#he{
-     position: relative;
-    text-align: center;
     font-family: sans-serif;
     color:#450f26;
-    bottom:5px;
     right:5px;
-    top: 2px;
+    top: 25px;
+    left: 80px;
+    padding: 5px;
+}
+#he{
+    position: relative;
+    font-family: sans-serif;
+    color:#450f26;
+    top: 25px;
+    left: 120px;
+    padding: 5px;
 }
 #conocimientos{
     position: relative;
-    background-color: #F0EFF4;
     width: 750px;;
     height:300px;
     position: relative;
-    left: 430px;
+    left: 250px;
     top: 90px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -380,16 +351,16 @@ ul{
     text-align: center;
 }
 #cono{
-    padding-left: 20px;
+    position: relative;
+    left:110px;
+    top:20px ;
 }
 #container{
-    position: relative;
-    background-color: #F0EFF4;
     width: 750px;;
     height:400px;
     position: relative;
-    left: 430px;
-    bottom:760px ;
+    left: 200px;
+    bottom:730px ;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    }
 #trabajemos{
